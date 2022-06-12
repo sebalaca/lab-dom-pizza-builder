@@ -99,5 +99,8 @@ document.querySelector('.btn.btn-green-peppers').addEventListener('click', funct
   renderEverything();
 });
 // Iteration 2: Add click event listener on `<button class="btn btn-sauce">`
-
+document.querySelector('.btn.btn-sauce').addEventListener('click', function () {
+  state.whiteSauce = !state.whiteSauce;
+  renderEverything();
+});
 // Iteration 2: Add click event listener on `<button class="btn btn-crust">`
